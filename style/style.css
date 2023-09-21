@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.produtos-catalogo {
+    margin: 0 50%;
+    display: grid;
+    list-style: none;
+    margin: auto;
+}
+
+.produtos-catalogo ul li {
+    text-align: center;
+    list-style: none;
+    display: grid;
+    padding: 50px;
+    width: 160px;
+}
+
+.produtos-catalogo ul img {
+    border: 1px solid black;
+}
+
+.produtos-catalogo ul p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #858585;
+    color: white;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
