@@ -1,39 +1,62 @@
+
+/* Geral */
 * {
     padding: 0;
     margin: 0;
 }
 
-.produtos-catalogo {
-    margin: 0 50%;
-    display: grid;
-    list-style: none;
-    margin: auto;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #81796b;
 }
 
-.produtos-catalogo ul li {
-    text-align: center;
-    list-style: none;
-    display: grid;
-    padding: 50px;
-    width: 160px;
+/* pesquisa */
+
+.pesquisa {
+    background-color: #ebeaeb;
+    text-align: right;
+    padding: 0 30px;
 }
 
-.produtos-catalogo ul img {
-    border: 1px solid black;
+/* menu */
+
+.menu {
+    padding: 30px;
+    background-color: #ebeaeb;
+    text-align: right;
 }
 
-.produtos-catalogo ul p {
-    margin-top: 10px;
-}
-
-footer {
-    background-color: #858585;
-    color: white;
-    padding: 20px;
-}
-
-footer a{
+.menu a {
+    padding: 10px;
+    color: #81796b;
     text-decoration: none;
-    color: white;
-    width: 100px;
 }
+
+
+/* Banner */
+
+.banner {
+    margin: 10px;
+    border: 1px solid black;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* rodape */
+
+.rodape {
+    background-color: #ebeaeb;
+    padding: 80px;
+}
+
+.rodape-descricao {
+    font-size: small;
+}
+
+.rodape a{
+    color: #81796b;
+    text-decoration: none;
+}
+
+
+
