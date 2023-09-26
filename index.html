@@ -11,29 +11,33 @@
     <header class="cabecalho">
         <img class="logo" src="assets/beauty.png" alt="Imagem da Logo">
 
-        <div class="pesquisa">
-            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar..." autocomplete="off">
-            <input type="submit" value="Ok">
+        <div class="menu-pesquisa">
+            <form class="pesquisa">
+                <input class="item-valor"  type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar..." autocomplete="off">
+                <button type="submit" class="item-pesquisa"><svg xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 0 512 512"><style>svg{fill:#81796b}</style><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+            </form>
+
+            <nav class="menu">
+
+                <a href="#catalogo">Catálogo</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
+            </nav>
         </div>
-
-        <nav class="menu">
-
-            <a href="">Catálogo</a>
-            <a href="">Sobre</a>
-            <a href="">Contato</a>
-        </nav>
-
-        <img class="banner" src="assets/bannerCatalogo.png" alt="Imagem do Banner Cosméticos">
     </header>
 
-    <section class="produtos-catalogo">
+    <div class="banner">
+        <img class="banner-imagem" src="assets/bannerCatalogo.png" alt="Imagem do Banner Cosméticos">
+    </div>
+
+    <section id="catalogo" class="produtos-catalogo">
         <ul>
             <li>
                 <a href="https://encurtador.com.br/afsP3" target="_blank">
                     <img src="assets/produtoCerave.png" alt="Imagem Produto CeraVe">
                 </a>
                 <p>Produto Cerave</p>
-                <small>Breve descrição do produto</small>
+                <small>O Creme Hidratante Sem Perfume 454g CeraVe para o corpo e rosto atua na hidratação e restauração da barreira protetora da pele.</small>
                 
             </li>
             <li>
@@ -41,60 +45,59 @@
                     <img src="assets/produtoCetaphil.png" alt="Imagem Produto Cetaphil">
                 </a>
                 <p>Produto Cetaphil</p>
-                <small>Breve descrição do produto</small>
+                <small>Cetaphil Creme Hidratante possui tecnologia moisture lock: atrai e retém a água da pele, mantendo-a hidratada. Sua fómula tem textura leve e alto poder de hidratação. </small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/jsxE0" target="_blank">
                     <img src="assets/produtoCreme.png" alt="Imagem Produto Creme Nivea">
                 </a>
                 <p>Produto Creme</p>
-                <small>Breve descrição do produto</small>
+                <small>Criado há mais de 110 anos, o Creme Lata da Nivea cuida da pele de gerações. Ele hidrata especialmente áreas mais ressecadas do corpo como cotovelo, calcanhar, joelho, mãos e pés.</small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/cvFU7" target="_blank">
                     <img src="assets/produtoEucerin.png" alt="Imagem Produto Mascara Hidratante">
                 </a>
                 <p>Produto Eucerin</p>
-                <small>Breve descrição do produto</small>
+                <small>Hidrate e dê conforto à sua pele com Eucerin pH5 Gel Creme e experimente uma nova sensação de bem-estar para sua pele, principalmente peles normais a secas, e sensíveis.</small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/fhxyC" target="_blank">
                     <img src="assets/produtoCetaphilWater.png" alt="Imagem Produto Óleo Elseve">
                 </a>
                 <p>Produto Cetaphil Water</p>
-                <small>Breve descrição do produto</small>
+                <small>Apresentamos Cetaphil Optimal Hydration Water Gel Hidratante Facial que possui uma fórmula inovadora para uma hidratação intensa e prolongada por 72 horas.</small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/mCGVW" target="_blank">
                     <img src="assets/produtoNeutrogena.png" alt="Imagem Produto Óleo de Argan">
                 </a>
                 <p>Produto Neutrogena</p>
-                <small>Breve descrição do produto</small>
+                <small>A Neutrogena é uma marca que oferece uma variedade de produtos pros cuidados com a pele facial. Se você deseja protegê-la e mantê-la saudável, essa pode ser uma boa opção.</small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/oswH1" target="_blank">
                     <img src="assets/produtoNeutrogenaBright.png" alt="Imagem Produto Base BB">
                 </a>
                 <p>Produto Neutrogena Bright</p>
-                <small>Breve descrição do produto</small>
+                <small>A Neutrogena é uma marca que oferece uma variedade de produtos pros cuidados com a pele facial. Se você deseja protegê-la e mantê-la saudável, essa pode ser uma boa opção.</small>
             </li>
             <li>
                 <a href="https://encurtador.com.br/tEYZ3" target="_blank">
                     <img src="assets/produtoCicatricure.png" alt="Imagem Produto Hidratente Labial">
                 </a>
                 <p>Produto Cicatricure</p>
-                <small>Breve descrição do produto</small>
+                <small>Atua na morfologia da pele, reduzindo a profundidade das rugas gravitacionais e linhas de expressão em 6 semanas e redefinindo o contorno facial.</small>
             </li>
         </ul>
 
     </section>
     <footer class="rodape">
-        <div>
-            <p class="rodape-descricao">Catálogo de produtos voltado para a área de cosméticos & beleza. Desenvolvido para a matéria de desenvolvimento de plataforma móveis.  </p>
+            <p class="rodape-descricao rodape-item">Catálogo de produtos voltado para a área de cosméticos & beleza. Desenvolvido para a matéria de desenvolvimento de plataforma móveis.  </p>
 
-            <small>Todos os direitos reservados &copy | &reg; 2023 - Julia Salvador </small>
+            <small class="rodape-item">Todos os direitos reservados &copy | &reg; 2023 - Julia Salvador </small>
 
-            <div class="rodape-redes-sociais">
+            <div class="rodape-redes-sociais rodape-item">
                 <a href="https://br.linkedin.com/in/julia-salvador-a6b35795" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><style>svg{fill:#81796b}</style><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                 </a>
@@ -106,7 +109,6 @@
             </a>
             </div>
 
-        </div>
     </footer>
     
 </body>
