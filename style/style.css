@@ -10,7 +10,7 @@ body {
     color: #81796b;
 }
 
-/* pesquisa */
+/* Cabeçalho */
 
 .cabecalho {
     background-color: #ebeaeb;
@@ -44,7 +44,7 @@ body {
     background-color: #ffffff;
 }
 
-/* menu */
+/* Menu */
 
 .menu {
     padding: 20px;
@@ -56,6 +56,10 @@ body {
     color: #81796b;
     text-decoration: none;
     width: 10%px;
+}
+
+.menu a:hover {
+    color: black;
 }
 
 /* Banner */
@@ -132,6 +136,11 @@ body {
     color: #81796b;
     text-decoration: none;
 }
+
+.rodape svg:hover {
+    fill:black
+
+} 
 
 
 
